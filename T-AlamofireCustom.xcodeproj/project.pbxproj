@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1791EC661E9CD688001CB864 /* T-AlamofireCustom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1791EC5C1E9CD688001CB864 /* T-AlamofireCustom.framework */; };
+		1791EC661E9CD688001CB864 /* TAlamofireCustom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1791EC5C1E9CD688001CB864 /* TAlamofireCustom.framework */; };
 		1791EC6B1E9CD688001CB864 /* T_AlamofireCustomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC6A1E9CD688001CB864 /* T_AlamofireCustomTests.swift */; };
 		1791EC6D1E9CD688001CB864 /* T-AlamofireCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1791EC5F1E9CD688001CB864 /* T-AlamofireCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1791EC7B1E9CD79A001CB864 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC771E9CD79A001CB864 /* Common.swift */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1791EC5C1E9CD688001CB864 /* T-AlamofireCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "T-AlamofireCustom.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1791EC5C1E9CD688001CB864 /* TAlamofireCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAlamofireCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1791EC5F1E9CD688001CB864 /* T-AlamofireCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T-AlamofireCustom.h"; sourceTree = "<group>"; };
 		1791EC601E9CD688001CB864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1791EC651E9CD688001CB864 /* T-AlamofireCustomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "T-AlamofireCustomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1791EC661E9CD688001CB864 /* T-AlamofireCustom.framework in Frameworks */,
+				1791EC661E9CD688001CB864 /* TAlamofireCustom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 		1791EC5D1E9CD688001CB864 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1791EC5C1E9CD688001CB864 /* T-AlamofireCustom.framework */,
+				1791EC5C1E9CD688001CB864 /* TAlamofireCustom.framework */,
 				1791EC651E9CD688001CB864 /* T-AlamofireCustomTests.xctest */,
 			);
 			name = Products;
@@ -161,7 +161,7 @@
 			);
 			name = "T-AlamofireCustom";
 			productName = "T-AlamofireCustom";
-			productReference = 1791EC5C1E9CD688001CB864 /* T-AlamofireCustom.framework */;
+			productReference = 1791EC5C1E9CD688001CB864 /* TAlamofireCustom.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1791EC641E9CD688001CB864 /* T-AlamofireCustomTests */ = {
@@ -415,7 +415,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AlamofireCustom";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TAlamofireCustom;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,7 +434,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AlamofireCustom";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TAlamofireCustom;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};

@@ -39,8 +39,6 @@ s.dependency 'AlamofireNetworkActivityIndicator', '~> 2.1' #2.1.0
 s.dependency 'SwiftyJSON', '~> 3.1' #3.1.4
 s.dependency 'CryptoSwift', '~> 0.6' #0.6.8
 # 8
-s.source_files = "T-AlamofireCustom/**/*.{swift}"
+s.source_files = "TAlamofireCustom/**/*.{swift}"
 
-# 9
-s.resources = "T-AlamofireCustom/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
