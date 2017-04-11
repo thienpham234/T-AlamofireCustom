@@ -52,7 +52,7 @@ public typealias JSONcompletion = (_ success: Bool, _ statusCode: NSInteger, _ r
 public typealias ProgressBlock = (_ progress: Progress) -> Void
 
 
-class ServerManager {
+public class ServerManager {
     
     // MARK: - GET
     
