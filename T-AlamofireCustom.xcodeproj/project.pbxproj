@@ -14,6 +14,7 @@
 		1791EC7C1E9CD79A001CB864 /* DictionaryExs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC781E9CD79A001CB864 /* DictionaryExs.swift */; };
 		1791EC7D1E9CD79A001CB864 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC791E9CD79A001CB864 /* ServerManager.swift */; };
 		1791EC7E1E9CD79A001CB864 /* StringExs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC7A1E9CD79A001CB864 /* StringExs.swift */; };
+		1791EC7F1E9CE0DC001CB864 /* ServerManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1791EC791E9CD79A001CB864 /* ServerManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		A12881DB602DB03F1B3E6236 /* Pods_T_AlamofireCustom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCC07F9944B2A3E4CC5F129 /* Pods_T_AlamofireCustom.framework */; };
 /* End PBXBuildFile section */
 
@@ -138,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1791EC6D1E9CD688001CB864 /* T-AlamofireCustom.h in Headers */,
+				1791EC7F1E9CE0DC001CB864 /* ServerManager.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
