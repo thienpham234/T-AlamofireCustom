@@ -18,6 +18,6 @@ script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
-  - xcodebuild -scheme SCHEME -workspace WORKSPACE -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=10.3' build test
+  - xcodebuild -scheme SCHEME -workspace T-AlamofireCustom.xcworkspac -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=10.3' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
