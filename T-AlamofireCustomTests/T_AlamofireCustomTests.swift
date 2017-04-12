@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import T_AlamofireCustom
+import TAlamofireCustom
 
 class T_AlamofireCustomTests: XCTestCase {
     
@@ -24,6 +24,25 @@ class T_AlamofireCustomTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    func testConnectInternet() {
+        let isConnectAvailable = ServerManager._connectionAvailable()
+        XCTAssertTrue(isConnectAvailable,"Is connect Unavailable")
+    }
+    func testGetApiResponseDict() {
+        
+        let baseUrl:String = "https://api.chucknorris.io"
+        let endPoint:String = "/jokes/random"
+        ServerManager._makeGETrequest(baseURL: baseUrl, endpoint: endPoint, params: nil, showError: false, showHud: false) { (success, status, response, dict, array, string, error) in
+            XCTAssertTrue(dict != nil)
+        }
+    }
+    func testGetApiResponseArray() {
+        let baseUrl:String = "https://api.chucknorris.io"
+        let endPoint:String = "/jokes/categories"
+        ServerManager._makeGETrequest(baseURL: baseUrl, endpoint: endPoint, params: nil, showError: false, showHud: false) { (success, status, response, dict, array, string, error) in
+            XCTAssertTrue(array != nil)
+        }
     }
     
     func testPerformanceExample() {
