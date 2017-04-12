@@ -16,8 +16,6 @@ before_install:
   - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
 script:
   - set -o pipefail
-  - xcodebuild -version
-  - xcodebuild -showsdks
-  - xcodebuild -workspace T-AlamofireCustom.xcworkspace -scheme T-AlamofireCustomTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7 Plus,OS=10.3' build test
+  - xcodebuild -workspace T-AlamofireCustom.xcworkspace -scheme T-AlamofireCustom -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 7 Plus,OS=10.3' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
