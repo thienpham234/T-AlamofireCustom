@@ -148,10 +148,10 @@ ServerManager._makePOSTrequest(baseURL: "https://httpbin.org",
                                   body: body) { (success, status,response, dict, array, string, error) in
             //Handel response
  })
-  
+ // HTTP body: {"foo": [1, 2, 3], "bar": {"baz": "qux"}}
 ```
 
-// HTTP body: {"foo": [1, 2, 3], "bar": {"baz": "qux"}}
+
 ##### POST Request With eContentTypeHTTPHeader ==  .FormURLEncoded  Parameters
 
 ```swift
