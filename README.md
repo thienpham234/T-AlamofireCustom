@@ -1,6 +1,7 @@
 
 # T-AlamofireCustom is Network Manager
 [![Build Status](https://img.shields.io/travis/thienpham234/T-AlamofireCustom.svg)](https://travis-ci.org/thienpham234/T-AlamofireCustom)
+[![Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://developer.apple.com/swift/)
 
 T-AlamofireCustom is networking library written in Swift and Is inherited from lib Alamofire , and some lib.
 
