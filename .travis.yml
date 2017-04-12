@@ -11,13 +11,13 @@ env:
   - IOS_FRAMEWORK_SCHEME="T-AlamofireCustom"
   - EXAMPLE_SCHEME="T-AlamofireCustom"
   matrix:
-    - DESTINATION="OS=10.3,name=iPhone 7 Plus build test"     SCHEME="$IOS_FRAMEWORK_SCHEME"   RUN_TESTS="YES" BUILD_EXAMPLE="NO" POD_LINT="YES"
+    - DESTINATION="OS=10.3,name=iPhone 7 Plus"     SCHEME="$IOS_FRAMEWORK_SCHEME"   RUN_TESTS="YES" BUILD_EXAMPLE="NO" POD_LINT="YES"
 before_install:
   - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
 script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
-  - xcodebuild -scheme SCHEME -workspace WORKSPACE -sdk iphonesimulator -destination DESTINATION 
+  - xcodebuild -scheme SCHEME -workspace WORKSPACE -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=10.3' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
