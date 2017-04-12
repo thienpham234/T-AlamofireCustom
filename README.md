@@ -250,7 +250,7 @@ Whether you need to set the `NSExceptionRequiresForwardSecrecy` to `NO` depends 
 ## Thank you 
  Librarys using in T-AlamofireCustom. 
     
- - [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift
+ - [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift)
  - [PKHUD](https://github.com/pkluz/PKHUD)
  - [Alamofire](https://github.com/Alamofire/Alamofire)
  - [AlamofireNetworkActivityIndicator](https://github.com/Alamofire/AlamofireNetworkActivityIndicator)
