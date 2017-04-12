@@ -21,4 +21,9 @@ target ‘T-AlamofireCustom’ do
     
     shared_pods
 end
+target ‘T-AlamofireCustomTests’ do
+    use_frameworks!
+    
+    shared_pods
+end
 
