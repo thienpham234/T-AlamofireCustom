@@ -87,14 +87,14 @@ public enum eHTTPMethod: String {
 }
 ```
 
-#### JSON Encoding
+### JSON Encoding
 ```swift
 public enum eContentTypeHTTPHeader: Int {
     case JSON
     case FormURLEncoded
 }
 ```
-##### GET Request With URL-Encoded Parameters
+### GET Request With URL-Encoded Parameters
 
 ```swift
 let parameters: Parameter = ["foo": "bar"]
@@ -133,7 +133,7 @@ OR
                                         //
         }
 ```
-##### POST Request Simple with Body
+### POST Request Simple with Body
 
 ```swift
 let body: Parameter = [
@@ -152,7 +152,7 @@ ServerManager._makePOSTrequest(baseURL: "https://httpbin.org",
 ```
 
 
-##### POST Request With eContentTypeHTTPHeader ==  .FormURLEncoded  Parameters
+### POST Request With eContentTypeHTTPHeader ==  .FormURLEncoded  Parameters
 
 ```swift
 let body: Parameter = [
@@ -182,7 +182,7 @@ ServerManager._makePOSTrequest(baseURL: "https://httpbin.org",
 // HTTP body: foo=bar&baz[]=a&baz[]=1&qux[x]=1&qux[y]=2&qux[z]=3
 ```
  
-##### POST Request with eContentTypeHTTPHeader == .JSON Parameters
+### POST Request with eContentTypeHTTPHeader == .JSON Parameters
 
 ```swift
 let parameters: Parameter = [
@@ -207,7 +207,7 @@ ServerManager._makePOSTrequest(baseURL: "https://httpbin.org",
 
 // HTTP body: {"foo": [1, 2, 3], "bar": {"baz": "qux"}}
 ```
-### Network Reachability
+## Network Reachability
 ```swift
    if (ServerManager._noConnection() == true){
       // connection to internet is unavailable
@@ -215,7 +215,7 @@ ServerManager._makePOSTrequest(baseURL: "https://httpbin.org",
       //connection to internet is available
    }
 ```
-#### App Transport Security
+## App Transport Security
 
 With the addition of App Transport Security (ATS) in iOS 9, it is possible that using a custom `ServerTrustPolicyManager` with several `ServerTrustPolicy` objects will have no effect. If you continuously see `CFNetwork SSLHandshake failed (-9806)` errors, you have probably run into this problem. Apple's ATS system overrides the entire challenge system unless you configure the ATS settings in your app's plist to disable enough of it to allow your app to evaluate the server trust.
 
@@ -247,7 +247,14 @@ If you run into this problem (high probability with self-signed certificates), y
 Whether you need to set the `NSExceptionRequiresForwardSecrecy` to `NO` depends on whether your TLS connection is using an allowed cipher suite. In certain cases, it will need to be set to `NO`. The `NSExceptionAllowsInsecureHTTPLoads` MUST be set to `YES` in order to allow the `SessionDelegate` to receive challenge callbacks. Once the challenge callbacks are being called, the `ServerTrustPolicyManager` will take over the server trust evaluation. You may also need to specify the `NSTemporaryExceptionMinimumTLSVersion` if you're trying to connect to a host that only supports TLS versions less than `1.2`.
 
 > It is recommended to always use valid certificates in production environments.
-
+## Thank you:
+   ### Librarys using in T-AlamofireCustom
+    [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift)
+    [PKHUD](https://github.com/pkluz/PKHUD)
+    [Alamofire](https://github.com/Alamofire/Alamofire)
+    [AlamofireNetworkActivityIndicator](https://github.com/Alamofire/AlamofireNetworkActivityIndicator)
+    [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
+    [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
 ## License
 
 T-AlamofireCustom is released under the MIT license. [See LICENSE](https://github.com/thienpham234/T-AlamofireCustom/blob/master/LICENSE) for details.
