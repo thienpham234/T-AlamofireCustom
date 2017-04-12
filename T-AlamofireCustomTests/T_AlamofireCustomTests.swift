@@ -34,14 +34,21 @@ class T_AlamofireCustomTests: XCTestCase {
         let baseUrl:String = "https://api.chucknorris.io"
         let endPoint:String = "/jokes/random"
         ServerManager._makeGETrequest(baseURL: baseUrl, endpoint: endPoint, params: nil, showError: false, showHud: false) { (success, status, response, dict, array, string, error) in
-            XCTAssertTrue(dict != nil)
+            if success {
+               XCTAssertTrue(dict != nil)
+            }
+            
         }
     }
     func testGetApiResponseArray() {
         let baseUrl:String = "https://api.chucknorris.io"
         let endPoint:String = "/jokes/categories"
         ServerManager._makeGETrequest(baseURL: baseUrl, endpoint: endPoint, params: nil, showError: false, showHud: false) { (success, status, response, dict, array, string, error) in
-            XCTAssertTrue(array != nil)
+            if success {
+            
+                  XCTAssertTrue(array == nil)
+            }
+          
         }
     }
     
