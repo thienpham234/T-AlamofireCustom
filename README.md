@@ -248,14 +248,14 @@ Whether you need to set the `NSExceptionRequiresForwardSecrecy` to `NO` depends 
 
 > It is recommended to always use valid certificates in production environments.
 ## Thank you 
- Librarys using in T-AlamofireCustom
+ Librarys using in T-AlamofireCustom. 
     
-    - [x][ReachabilitySwift](https://github.com/ashleymills/Reachability.swift)
-    - [x][PKHUD](https://github.com/pkluz/PKHUD)
-    - [x][Alamofire](https://github.com/Alamofire/Alamofire)
-    - [x][AlamofireNetworkActivityIndicator](https://github.com/Alamofire/AlamofireNetworkActivityIndicator)
-    - [x][SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
-    - [x][CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
+ - [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift
+ - [PKHUD](https://github.com/pkluz/PKHUD)
+ - [Alamofire](https://github.com/Alamofire/Alamofire)
+ - [AlamofireNetworkActivityIndicator](https://github.com/Alamofire/AlamofireNetworkActivityIndicator)
+ - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
+ - [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
     
 ## License
 
