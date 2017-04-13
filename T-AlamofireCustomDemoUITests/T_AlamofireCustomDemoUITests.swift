@@ -1,6 +1,6 @@
 //
-//  T_AamofireCustomDemoUITests.swift
-//  T-AamofireCustomDemoUITests
+//  T_AlamofireCustomDemoUITests.swift
+//  T-AlamofireCustomDemoUITests
 //
 //  Created by ThienPham on 4/13/17.
 //  Copyright © 2017 D.A.C Tech VN. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class T_AamofireCustomDemoUITests: XCTestCase {
+class T_AlamofireCustomDemoUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

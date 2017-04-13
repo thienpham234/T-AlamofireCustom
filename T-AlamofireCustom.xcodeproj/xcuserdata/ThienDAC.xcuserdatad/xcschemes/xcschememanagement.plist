@@ -6,6 +6,8 @@
 	<dict>
 		<key>T-AamofireCustomDemo.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
@@ -19,8 +21,15 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>T-AlamofireCustomTests.xcscheme_^#shared#^_</key>
+		<key>T-AlamofireCustomDemo.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>T-AlamofireCustomTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
@@ -48,6 +57,21 @@
 			<true/>
 		</dict>
 		<key>1791ECA11E9F0D8C001CB864</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1791ECB51E9F1412001CB864</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1791ECC81E9F1413001CB864</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1791ECD31E9F1413001CB864</key>
 		<dict>
 			<key>primary</key>
 			<true/>

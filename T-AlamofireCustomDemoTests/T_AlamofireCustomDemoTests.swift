@@ -1,15 +1,15 @@
 //
-//  T_AamofireCustomDemoTests.swift
-//  T-AamofireCustomDemoTests
+//  T_AlamofireCustomDemoTests.swift
+//  T-AlamofireCustomDemoTests
 //
 //  Created by ThienPham on 4/13/17.
 //  Copyright © 2017 D.A.C Tech VN. All rights reserved.
 //
 
 import XCTest
-import TAlamofireCustom
+@testable import TAlamofireCustom
 
-class T_AamofireCustomDemoTests: XCTestCase {
+class T_AlamofireCustomDemoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -51,8 +51,6 @@ class T_AamofireCustomDemoTests: XCTestCase {
             
         }
     }
-
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

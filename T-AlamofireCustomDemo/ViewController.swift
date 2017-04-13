@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  T-AamofireCustomDemo
+//  T-AlamofireCustomDemo
 //
 //  Created by ThienPham on 4/13/17.
 //  Copyright © 2017 D.A.C Tech VN. All rights reserved.
