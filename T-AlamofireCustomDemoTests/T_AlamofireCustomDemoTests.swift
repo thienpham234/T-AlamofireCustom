@@ -1,15 +1,15 @@
 //
-//  T_AlamofireCustomTests.swift
-//  T-AlamofireCustomTests
+//  T_AlamofireCustomDemoTests.swift
+//  T-AlamofireCustomDemoTests
 //
-//  Created by ThienPham on 4/11/17.
+//  Created by ThienPham on 4/13/17.
 //  Copyright © 2017 D.A.C Tech VN. All rights reserved.
 //
 
 import XCTest
-import TAlamofireCustom
+@testable import TAlamofireCustom
 
-class T_AlamofireCustomTests: XCTestCase {
+class T_AlamofireCustomDemoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -35,7 +35,7 @@ class T_AlamofireCustomTests: XCTestCase {
         let endPoint:String = "/jokes/random"
         ServerManager._makeGETrequest(baseURL: baseUrl, endpoint: endPoint, params: nil, showError: false, showHud: false) { (success, status, response, dict, array, string, error) in
             if success {
-               XCTAssertTrue(dict != nil)
+                XCTAssertTrue(dict != nil)
             }
             
         }
@@ -45,13 +45,12 @@ class T_AlamofireCustomTests: XCTestCase {
         let endPoint:String = "/jokes/categories"
         ServerManager._makeGETrequest(baseURL: baseUrl, endpoint: endPoint, params: nil, showError: false, showHud: false) { (success, status, response, dict, array, string, error) in
             if success {
-            
-                  XCTAssertTrue(array == nil)
+                
+                XCTAssertTrue(array == nil)
             }
-          
+            
         }
     }
-    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
