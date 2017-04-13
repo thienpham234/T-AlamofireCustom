@@ -15,6 +15,13 @@
 		1791EC7D1E9CD79A001CB864 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC791E9CD79A001CB864 /* ServerManager.swift */; };
 		1791EC7E1E9CD79A001CB864 /* StringExs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC7A1E9CD79A001CB864 /* StringExs.swift */; };
 		1791EC7F1E9CE0DC001CB864 /* ServerManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1791EC791E9CD79A001CB864 /* ServerManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1791EC871E9F0D8C001CB864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC861E9F0D8C001CB864 /* AppDelegate.swift */; };
+		1791EC891E9F0D8C001CB864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC881E9F0D8C001CB864 /* ViewController.swift */; };
+		1791EC8C1E9F0D8C001CB864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1791EC8A1E9F0D8C001CB864 /* Main.storyboard */; };
+		1791EC8E1E9F0D8C001CB864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1791EC8D1E9F0D8C001CB864 /* Assets.xcassets */; };
+		1791EC911E9F0D8C001CB864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1791EC8F1E9F0D8C001CB864 /* LaunchScreen.storyboard */; };
+		1791EC9C1E9F0D8C001CB864 /* T_AamofireCustomDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791EC9B1E9F0D8C001CB864 /* T_AamofireCustomDemoTests.swift */; };
+		1791ECA71E9F0D8C001CB864 /* T_AamofireCustomDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1791ECA61E9F0D8C001CB864 /* T_AamofireCustomDemoUITests.swift */; };
 		A12881DB602DB03F1B3E6236 /* Pods_T_AlamofireCustom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCC07F9944B2A3E4CC5F129 /* Pods_T_AlamofireCustom.framework */; };
 		F9E9EB28947F58481128F3B5 /* Pods_T_AlamofireCustomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7564662F092DE9FD1E490EA /* Pods_T_AlamofireCustomTests.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +33,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1791EC5B1E9CD688001CB864;
 			remoteInfo = "T-AlamofireCustom";
+		};
+		1791EC981E9F0D8C001CB864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1791EC531E9CD688001CB864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1791EC831E9F0D8C001CB864;
+			remoteInfo = "T-AamofireCustomDemo";
+		};
+		1791ECA31E9F0D8C001CB864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1791EC531E9CD688001CB864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1791EC831E9F0D8C001CB864;
+			remoteInfo = "T-AamofireCustomDemo";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,6 +63,19 @@
 		1791EC781E9CD79A001CB864 /* DictionaryExs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExs.swift; sourceTree = "<group>"; };
 		1791EC791E9CD79A001CB864 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		1791EC7A1E9CD79A001CB864 /* StringExs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExs.swift; sourceTree = "<group>"; };
+		1791EC841E9F0D8C001CB864 /* T-AamofireCustomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T-AamofireCustomDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1791EC861E9F0D8C001CB864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1791EC881E9F0D8C001CB864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1791EC8B1E9F0D8C001CB864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1791EC8D1E9F0D8C001CB864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1791EC901E9F0D8C001CB864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1791EC921E9F0D8C001CB864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1791EC971E9F0D8C001CB864 /* T-AamofireCustomDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "T-AamofireCustomDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1791EC9B1E9F0D8C001CB864 /* T_AamofireCustomDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T_AamofireCustomDemoTests.swift; sourceTree = "<group>"; };
+		1791EC9D1E9F0D8C001CB864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1791ECA21E9F0D8C001CB864 /* T-AamofireCustomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "T-AamofireCustomDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1791ECA61E9F0D8C001CB864 /* T_AamofireCustomDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T_AamofireCustomDemoUITests.swift; sourceTree = "<group>"; };
+		1791ECA81E9F0D8C001CB864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26FED4E5F4605E27043A047B /* Pods-T-AlamofireCustom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-AlamofireCustom.release.xcconfig"; path = "Pods/Target Support Files/Pods-T-AlamofireCustom/Pods-T-AlamofireCustom.release.xcconfig"; sourceTree = "<group>"; };
 		58BB2050D30BD6ADEC9A2BF7 /* Pods-T-AlamofireCustom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T-AlamofireCustom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T-AlamofireCustom/Pods-T-AlamofireCustom.debug.xcconfig"; sourceTree = "<group>"; };
 		8CCC07F9944B2A3E4CC5F129 /* Pods_T_AlamofireCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_AlamofireCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +100,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1791EC811E9F0D8C001CB864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791EC941E9F0D8C001CB864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791EC9F1E9F0D8C001CB864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +129,9 @@
 			children = (
 				1791EC5E1E9CD688001CB864 /* T-AlamofireCustom */,
 				1791EC691E9CD688001CB864 /* T-AlamofireCustomTests */,
+				1791EC851E9F0D8C001CB864 /* T-AamofireCustomDemo */,
+				1791EC9A1E9F0D8C001CB864 /* T-AamofireCustomDemoTests */,
+				1791ECA51E9F0D8C001CB864 /* T-AamofireCustomDemoUITests */,
 				1791EC5D1E9CD688001CB864 /* Products */,
 				B7E8FA95DB271C3B09CB5B02 /* Pods */,
 				F5C5CC4827CC28D8A42B57C0 /* Frameworks */,
@@ -85,6 +143,9 @@
 			children = (
 				1791EC5C1E9CD688001CB864 /* TAlamofireCustom.framework */,
 				1791EC651E9CD688001CB864 /* T-AlamofireCustomTests.xctest */,
+				1791EC841E9F0D8C001CB864 /* T-AamofireCustomDemo.app */,
+				1791EC971E9F0D8C001CB864 /* T-AamofireCustomDemoTests.xctest */,
+				1791ECA21E9F0D8C001CB864 /* T-AamofireCustomDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +178,37 @@
 				1791EC7A1E9CD79A001CB864 /* StringExs.swift */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		1791EC851E9F0D8C001CB864 /* T-AamofireCustomDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1791EC861E9F0D8C001CB864 /* AppDelegate.swift */,
+				1791EC881E9F0D8C001CB864 /* ViewController.swift */,
+				1791EC8A1E9F0D8C001CB864 /* Main.storyboard */,
+				1791EC8D1E9F0D8C001CB864 /* Assets.xcassets */,
+				1791EC8F1E9F0D8C001CB864 /* LaunchScreen.storyboard */,
+				1791EC921E9F0D8C001CB864 /* Info.plist */,
+			);
+			path = "T-AamofireCustomDemo";
+			sourceTree = "<group>";
+		};
+		1791EC9A1E9F0D8C001CB864 /* T-AamofireCustomDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1791EC9B1E9F0D8C001CB864 /* T_AamofireCustomDemoTests.swift */,
+				1791EC9D1E9F0D8C001CB864 /* Info.plist */,
+			);
+			path = "T-AamofireCustomDemoTests";
+			sourceTree = "<group>";
+		};
+		1791ECA51E9F0D8C001CB864 /* T-AamofireCustomDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1791ECA61E9F0D8C001CB864 /* T_AamofireCustomDemoUITests.swift */,
+				1791ECA81E9F0D8C001CB864 /* Info.plist */,
+			);
+			path = "T-AamofireCustomDemoUITests";
 			sourceTree = "<group>";
 		};
 		B7E8FA95DB271C3B09CB5B02 /* Pods */ = {
@@ -195,6 +287,59 @@
 			productReference = 1791EC651E9CD688001CB864 /* T-AlamofireCustomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1791EC831E9F0D8C001CB864 /* T-AamofireCustomDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1791ECAF1E9F0D8C001CB864 /* Build configuration list for PBXNativeTarget "T-AamofireCustomDemo" */;
+			buildPhases = (
+				1791EC801E9F0D8C001CB864 /* Sources */,
+				1791EC811E9F0D8C001CB864 /* Frameworks */,
+				1791EC821E9F0D8C001CB864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "T-AamofireCustomDemo";
+			productName = "T-AamofireCustomDemo";
+			productReference = 1791EC841E9F0D8C001CB864 /* T-AamofireCustomDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1791EC961E9F0D8C001CB864 /* T-AamofireCustomDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1791ECB01E9F0D8C001CB864 /* Build configuration list for PBXNativeTarget "T-AamofireCustomDemoTests" */;
+			buildPhases = (
+				1791EC931E9F0D8C001CB864 /* Sources */,
+				1791EC941E9F0D8C001CB864 /* Frameworks */,
+				1791EC951E9F0D8C001CB864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1791EC991E9F0D8C001CB864 /* PBXTargetDependency */,
+			);
+			name = "T-AamofireCustomDemoTests";
+			productName = "T-AamofireCustomDemoTests";
+			productReference = 1791EC971E9F0D8C001CB864 /* T-AamofireCustomDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1791ECA11E9F0D8C001CB864 /* T-AamofireCustomDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1791ECB11E9F0D8C001CB864 /* Build configuration list for PBXNativeTarget "T-AamofireCustomDemoUITests" */;
+			buildPhases = (
+				1791EC9E1E9F0D8C001CB864 /* Sources */,
+				1791EC9F1E9F0D8C001CB864 /* Frameworks */,
+				1791ECA01E9F0D8C001CB864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1791ECA41E9F0D8C001CB864 /* PBXTargetDependency */,
+			);
+			name = "T-AamofireCustomDemoUITests";
+			productName = "T-AamofireCustomDemoUITests";
+			productReference = 1791ECA21E9F0D8C001CB864 /* T-AamofireCustomDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -213,6 +358,20 @@
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
 					};
+					1791EC831E9F0D8C001CB864 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					1791EC961E9F0D8C001CB864 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1791EC831E9F0D8C001CB864;
+					};
+					1791ECA11E9F0D8C001CB864 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1791EC831E9F0D8C001CB864;
+					};
 				};
 			};
 			buildConfigurationList = 1791EC561E9CD688001CB864 /* Build configuration list for PBXProject "T-AlamofireCustom" */;
@@ -221,14 +380,18 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1791EC521E9CD688001CB864;
 			productRefGroup = 1791EC5D1E9CD688001CB864 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1791EC831E9F0D8C001CB864 /* T-AamofireCustomDemo */,
 				1791EC5B1E9CD688001CB864 /* T-AlamofireCustom */,
 				1791EC641E9CD688001CB864 /* T-AlamofireCustomTests */,
+				1791EC961E9F0D8C001CB864 /* T-AamofireCustomDemoTests */,
+				1791ECA11E9F0D8C001CB864 /* T-AamofireCustomDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +405,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1791EC631E9CD688001CB864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791EC821E9F0D8C001CB864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1791EC911E9F0D8C001CB864 /* LaunchScreen.storyboard in Resources */,
+				1791EC8E1E9F0D8C001CB864 /* Assets.xcassets in Resources */,
+				1791EC8C1E9F0D8C001CB864 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791EC951E9F0D8C001CB864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791ECA01E9F0D8C001CB864 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -348,6 +535,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1791EC801E9F0D8C001CB864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1791EC891E9F0D8C001CB864 /* ViewController.swift in Sources */,
+				1791EC871E9F0D8C001CB864 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791EC931E9F0D8C001CB864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1791EC9C1E9F0D8C001CB864 /* T_AamofireCustomDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1791EC9E1E9F0D8C001CB864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1791ECA71E9F0D8C001CB864 /* T_AamofireCustomDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -356,7 +568,36 @@
 			target = 1791EC5B1E9CD688001CB864 /* T-AlamofireCustom */;
 			targetProxy = 1791EC671E9CD688001CB864 /* PBXContainerItemProxy */;
 		};
+		1791EC991E9F0D8C001CB864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1791EC831E9F0D8C001CB864 /* T-AamofireCustomDemo */;
+			targetProxy = 1791EC981E9F0D8C001CB864 /* PBXContainerItemProxy */;
+		};
+		1791ECA41E9F0D8C001CB864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1791EC831E9F0D8C001CB864 /* T-AamofireCustomDemo */;
+			targetProxy = 1791ECA31E9F0D8C001CB864 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1791EC8A1E9F0D8C001CB864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1791EC8B1E9F0D8C001CB864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1791EC8F1E9F0D8C001CB864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1791EC901E9F0D8C001CB864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1791EC6E1E9CD688001CB864 /* Debug */ = {
@@ -524,6 +765,84 @@
 			};
 			name = Release;
 		};
+		1791ECA91E9F0D8C001CB864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "T-AamofireCustomDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AamofireCustomDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1791ECAA1E9F0D8C001CB864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "T-AamofireCustomDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AamofireCustomDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1791ECAB1E9F0D8C001CB864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "T-AamofireCustomDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AamofireCustomDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T-AamofireCustomDemo.app/T-AamofireCustomDemo";
+			};
+			name = Debug;
+		};
+		1791ECAC1E9F0D8C001CB864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "T-AamofireCustomDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AamofireCustomDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T-AamofireCustomDemo.app/T-AamofireCustomDemo";
+			};
+			name = Release;
+		};
+		1791ECAD1E9F0D8C001CB864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "T-AamofireCustomDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AamofireCustomDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "T-AamofireCustomDemo";
+			};
+			name = Debug;
+		};
+		1791ECAE1E9F0D8C001CB864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "T-AamofireCustomDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dactechvn.T-AamofireCustomDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "T-AamofireCustomDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +872,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1791ECAF1E9F0D8C001CB864 /* Build configuration list for PBXNativeTarget "T-AamofireCustomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791ECA91E9F0D8C001CB864 /* Debug */,
+				1791ECAA1E9F0D8C001CB864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1791ECB01E9F0D8C001CB864 /* Build configuration list for PBXNativeTarget "T-AamofireCustomDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791ECAB1E9F0D8C001CB864 /* Debug */,
+				1791ECAC1E9F0D8C001CB864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1791ECB11E9F0D8C001CB864 /* Build configuration list for PBXNativeTarget "T-AamofireCustomDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1791ECAD1E9F0D8C001CB864 /* Debug */,
+				1791ECAE1E9F0D8C001CB864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
